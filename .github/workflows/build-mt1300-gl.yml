@@ -13,6 +13,7 @@ name: Build MT1300 from GL-iNet
 
 on:
   repository_dispatch:
+  workflow_dispatch:
   release:
     types: published
 
